@@ -1,0 +1,71 @@
+/* Define black and gold colors */
+
+h1 {
+
+  font-size: 35px; 
+}
+
+video {
+  position: absolute;
+  top: 20px;   /* Adjust the top distance */
+  left: 20px;  /* Adjust the left distance */
+ 
+  
+}
+
+
+body {
+  background-color: #363636;
+  color: #ffffff; /* Gold color */
+}
+
+/* Style the form container */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the form */
+form {
+  background-color: rgba(58, 58, 58, 0.5); /* Semi-transparent black */
+  padding: 80px;
+  border-radius: 8px;
+  width: 300px;
+  
+  box-shadow: -30px 15px 70px rgba(255, 255, 255, 0.5); /* Gold-colored shadow */
+}
+
+/* Style form labels and inputs */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black for input fields */
+  color: #e6ebf0; /* Gold text color */
+}
+
+/* Style the submit button */
+button {
+  background-color: #009edd; /* Gold button background color */
+  color: #ffffff; /* Black text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style the submit button on hover */
+button:hover {
+  background-color: #fff; /* White button background color */
+  color: #000; /* Black text color */
+}
