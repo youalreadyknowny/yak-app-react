@@ -4,10 +4,13 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
+    "predeploy": "npm run build" ,
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "predeploy": "npm run build" ,
-    "deploy": "gh-pages -d build"
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+
   },
   "keywords": [],
   "author": "",
@@ -15,6 +18,29 @@
   "description": "",
   "dependencies": {
     "sqlite3": "^5.1.6"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "deploy": "^1.0.3",
+    "gh-pages": "^6.0.0"
   }
 }
+
  
