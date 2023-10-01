@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/youalreadyknowny/yak-app-react.git", 
+  "homepage": "https://youalreadyknowny.github.io/yak-app-react", 
   "name": "server",
   "version": "1.0.0",
   "main": "server.js",
